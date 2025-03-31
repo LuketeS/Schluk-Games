@@ -3,7 +3,9 @@
     --cor-textos-pequenos: #C0C0C0;
     --cor-botao: #f77b16;
     --cor-de-fundo: #00030C;
-
+    --font-principal: "Inter", sans-serif;
+  
+; 
 }
 
 *{
@@ -14,14 +16,56 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-textos);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .principal{
     background-image: url("../assets/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
+
+.container__caixa{
+    margin: 0 5em;
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__botao{
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-textos);
+    display:block;
+    text-decoration: none;
+    margin-bottom: 1em;    
+}
+
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--cor-textos);
+}
+
+.container__aviso{
+    font-size: 12px;
+    color: var(--cor-textos-pequenos);
+    text-align: center;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
