@@ -69,3 +69,38 @@ body{
     margin: 1em 0 2em 0;
 }
 
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 7%;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-textos);
+    margin-bottom: 0.1em;
+    text-align: center;
+}
+
+.descricao__texto{
+    color: var(--cor-textos-pequenos);
+    text-align: center;
+}
+
+.secundario__botao{
+    display: inline-block;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.container__descricao{
+    text-align: center;
+}
+
+.container__descricao{
+    padding: 2em;
+}
