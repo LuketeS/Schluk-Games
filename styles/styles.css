@@ -164,3 +164,30 @@ body{
     color: var(--cor-de-fundo);
 
 }
+
+@media (max-width: 1173px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 2em;
+        margin: 2em 0;
+    }  
+    
+    .container__caixa{
+        margin: 0 2em;
+    }
+
+    .container.secundario.catalogo{
+        flex-direction: column-reverse;
+    }
+    
+    .dispositivos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dispositivos__lista{
+        flex-direction: column;
+    }
+}
